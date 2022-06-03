@@ -37,9 +37,10 @@ main {
 }
 
 .grid-items {
-  border: 1px solid gray;
+  border: 0.1px solid gray;
   position: relative;
   font-size: 2rem;
+  background-color: white;
 
   display: flex;
   justify-content: center;
@@ -55,10 +56,22 @@ main {
   border-left: 0.5rem solid black;
 }
 
+#box1, 
+#box2, 
+#box3, 
+#box4, 
+#box5, 
+#box8, 
+#box9, 
+#box10, 
+#box11 {
+  border-bottom: 0.5rem solid black;
+}
+
 .prompt {
   position: absolute;
   top: 0;
-  left: 0;
+  right: 0;
   margin: 0.25rem;
 }
 
@@ -70,16 +83,9 @@ main {
   text-align: center;
 }
 
-#box1, 
-#box2, 
-#box3, 
-#box4, 
-#box5, 
-#box8, 
-#box9, 
-#box10, 
-#box11 {
-  border-bottom: 0.5rem solid black;
+.special {
+  font-size: 2rem;
+  border: none;
 }
  
 @media only screen and (min-width: 475px) {
